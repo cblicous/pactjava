@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    @RequestMapping("/test")
+    @RequestMapping("/pact")
         public String welcome() {
-            return "test";
+            return "{\"name\": \"Michael\"}";
         }
 
 }
